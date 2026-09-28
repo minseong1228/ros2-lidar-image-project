@@ -1,0 +1,17 @@
+image_publisher:
+  ros__parameters:
+    mode: "BEV"            
+
+    bev_height_min: -2.0   
+    bev_height_max: 3.5    
+
+    bev:
+      min_x: -40.0
+      max_x:  40.0
+      min_y: -40.0
+      max_y:  40.0
+      cell_size: 0.1    
+
+    range_image:
+      width:  1024
+      height: 64
